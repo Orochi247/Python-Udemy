@@ -33,7 +33,7 @@ while not game_over:
             display += "_"
         
     print(display)
-    
+    #check
     if guess not in chosen_word:
         lives -= 1
         if lives == 0:
